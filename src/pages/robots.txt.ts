@@ -4,7 +4,7 @@ const robotsTxt = `
 User-agent: *
 Allow: /
 
-Sitemap: https://alexander-vane.dev/sitemap-index.xml
+Sitemap: https://martinez-hinsa.dev/sitemap-index.xml
 `.trim();
 
 export const GET: APIRoute = () => {

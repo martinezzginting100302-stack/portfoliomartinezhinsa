@@ -15,15 +15,15 @@ const {
   article = false,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://alexander-vane.dev");
-const imageURL = new URL(image, Astro.site || "https://alexander-vane.dev");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://martinez-hinsa.dev");
+const imageURL = new URL(image, Astro.site || "https://martinez-hinsa.dev");
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": siteConfig.name,
   "jobTitle": siteConfig.role,
-  "url": Astro.site?.toString() || "https://alexander-vane.dev",
+  "url": Astro.site?.toString() || "https://martinez-hinsa.dev",
   "email": siteConfig.email,
   "address": {
     "@type": "PostalAddress",
@@ -37,7 +37,7 @@ const webSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": `${siteConfig.name} Portfolio & CV`,
-  "url": Astro.site?.toString() || "https://alexander-vane.dev",
+  "url": Astro.site?.toString() || "https://martinez-hinsa.dev",
   "description": description,
   "author": {
     "@type": "Person",

@@ -25,11 +25,11 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Alexander Vane",
+  name: "Martinez Hinsa",
   pronouns: "he/him",
   role: "Senior Software Engineer & Product Architect",
   location: "Jakarta, Indonesia",
-  email: "alexander@vane.dev",
+  email: "martinez@hinsa.dev",
   phone: "+62 (812) 8900-1234",
   statement: "I architect and engineer high-performance web systems and resilient digital products with an uncompromising focus on simplicity, speed, and maintainability.",
   shortBio: "With over 8 years of experience leading engineering initiatives across fintech, developer tooling, and modern distributed systems, I specialize in bridging nuanced user experience design with robust backend architecture.",
@@ -55,23 +55,23 @@ export const siteConfig: SiteConfig = {
   socials: [
     {
       name: "GitHub",
-      label: "github.com/alexandervane",
+      label: "github.com/martinezhins",
       url: "https://github.com",
     },
     {
       name: "LinkedIn",
-      label: "linkedin.com/in/alexandervane",
+      label: "linkedin.com/in/martinezhins",
       url: "https://linkedin.com",
     },
     {
       name: "X (Twitter)",
-      label: "x.com/alexandervane",
+      label: "x.com/martinezhins",
       url: "https://x.com",
     },
     {
       name: "Email",
-      label: "alexander@vane.dev",
-      url: "mailto:alexander@vane.dev",
+      label: "martinez@hinsa.dev",
+      url: "mailto:martinez@hinsa.dev",
     }
   ],
   skills: [
